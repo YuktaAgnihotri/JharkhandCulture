@@ -14,7 +14,7 @@ export default function About() {
         <li> Sumit </li>
         <li>  Raj singh  chouhan</li>
         <li>  Prathmesh Rai</li>
-        <li> Disha Pidoriya</li>
+        <li> Disha Pirodiya</li>
         
        
         </div>
