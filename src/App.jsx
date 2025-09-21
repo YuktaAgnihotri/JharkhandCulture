@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import JharkhandBackgroundCarousel from './components/imageSlidedhow';
 import Home from './pages/Home';
 import Places from './pages/Places';
 import PlaceDetails from './pages/PlaceDetails';
@@ -13,9 +14,10 @@ function App() {
     <LanguageProvider>
       <BrowserRouter>
         <Navbar />
+        
         <div className="min-h-screen bg-gray-50">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<JharkhandBackgroundCarousel />} />
             <Route path="/places" element={<Places />} />
             <Route path="/places/:id" element={<PlaceDetails />} />
             <Route path="/products" element={<Products />} />

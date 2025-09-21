@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="text-center">
-      <h1 className="text-4xl font-bold my-6">Discover Jharkhand</h1>
+      <h1 className="text-3xl font-bold my-6">Buy relics with legacy </h1>
       <p className="text-lg mb-4">
         Explore stories of historic places and buy local crafts that carry a story with them.
       </p>
