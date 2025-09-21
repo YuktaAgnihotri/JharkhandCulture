@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import LanguageSwitcher from './languageSwitch';
+//import LanguageSwitcher from './languageSwitch';
 
 export default function Navbar() {
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link to="/places" className="hover:underline">Places</Link>
         <Link to="/products" className="hover:underline">Products</Link>
         <Link to="/about" className="hover:underline">About</Link>
-        <LanguageSwitcher />
+        
       </div>
     </nav>
   )
