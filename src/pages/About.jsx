@@ -7,6 +7,21 @@ export default function About() {
         tells bilingual stories (Hindi/English) of historic places in Jharkhand
         and connects them with local products to promote cultural heritage and
         artisans.
+        <h1 className="pt-5 ml-10 font-black"> Team members</h1> 
+        <div className="p-5 ml-10">
+           <li> Yukta Agnihotri (team Leader)</li>
+        <li> Shubhanshu Choudhary</li>
+        <li> Sumit </li>
+        <li>  Raj singh  chouhan</li>
+        <li>  Prathmesh Rai</li>
+        <li> Disha Pidoriya</li>
+        
+       
+        </div>
+       
+      
+       
+        
       </p>
     </div>
   );
