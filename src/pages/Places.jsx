@@ -1,7 +1,4 @@
-import { useEffect, useState } from 'react';
-import { fetchPlaces, fetchStories } from '../Services/Api';
-import StoryCard from '../components/Storycard';
-import Loader from '../components/Loader';
+
 import rajappa from '../assets/rajaapa.webp'
 import nehrath from '../assets/nehrath.webp'
 import uranium from "../assets/uranium.webp"

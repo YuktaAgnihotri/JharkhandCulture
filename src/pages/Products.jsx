@@ -1,7 +1,4 @@
-import { useEffect, useState } from 'react';
-import { fetchProducts } from '../Services/Api';
-import ProductCard from '../components/Productcard';
-import Loader from '../components/Loader';
+
 import sohari from '../assets/sohariPainting.jpg'
 import steelmug from '../assets/steelmug.webp'
 import wallpainting from '../assets/wallpainting.webp'
